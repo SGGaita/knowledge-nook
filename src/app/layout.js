@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
               bgcolor: 'background.default',
             }}
           >
-            {children}
+        {children}
           </Box>
         </ThemeRegistry>
       </body>

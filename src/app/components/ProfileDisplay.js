@@ -28,13 +28,13 @@ export default function ProfileDisplay() {
   };
   
   const handleEditProfile = () => {
-    router.push('/profile');
+    router.push('/');
     handleClose();
   };
   
   const handleSignOut = () => {
     localStorage.removeItem('userProfile');
-    router.push('/profile');
+    router.push('/');
     handleClose();
   };
   
